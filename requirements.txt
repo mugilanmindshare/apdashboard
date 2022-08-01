@@ -1,4 +1,6 @@
-gunicorn
+gunicorn==19.0.0
+gevent==1.2.1
+passlib==1.7.0
 dash
 dash-auth
 dash-core-components
