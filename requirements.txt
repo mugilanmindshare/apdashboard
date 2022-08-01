@@ -7,14 +7,7 @@ debugpy
 Flask
 Flask-Compress
 Flask-SeaSurf
-gitdb
-GitPython
-hydralit-components
-ipykernel
-ipython
 numpy
 pandas
 plotly
-python-dateutil
-python-dotenv
-requests
+
