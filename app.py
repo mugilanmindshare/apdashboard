@@ -4,13 +4,11 @@ import dash_auth
 import dash_core_components as dcc
 import dash_html_components as html
 import plotly
-import os
 
 # Keep this out of source code repository - save in a file or a database
 VALID_USERNAME_PASSWORD_PAIRS = {
     'TDP': 'tdp@2024'
 }
-port = int(os.environ.get('PORT', 5000))
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
