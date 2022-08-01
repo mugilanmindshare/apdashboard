@@ -1,5 +1,5 @@
 gunicorn
-os
+os-sys
 dash
 dash-auth
 dash-core-components
